@@ -5,7 +5,6 @@
 //#include "weather_station.h"
 
 
-
 #define TIME_INI  1593561600  // 1 de julio de 2020, 00:00:00
 #define BAUD_RATE 9600
 #define DELAY_BETWEEN_TICK 500 // 500 ms
