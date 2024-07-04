@@ -11,6 +11,8 @@ El sistema se compone de sensores para detectar la lluvia, un análisis de datos
 ![Figura 1: Esquema de un pluviómetro de balancín (fuente. Segerer et al., 2006)
 ](doc/fig/pluviometro.png)
 
+**Figura 1:** *Esquema de un pluviómetro de balancín (fuente. Segerer et al., 2006)*
+
 ## Estructura del Código
 
 ### Sensores
