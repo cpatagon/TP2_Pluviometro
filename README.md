@@ -8,6 +8,9 @@ Este proyecto implementa un pluviómetro utilizando la plataforma MBED. El siste
 
 El sistema se compone de sensores para detectar la lluvia, un análisis de datos para acumular y reportar la cantidad de lluvia, y actuadores para indicar cuando se ha detectado lluvia.
 
+![Figura 1: Esquema de un pluviómetro de balancín (fuente. Segerer et al., 2006)
+](doc/fig/pluviometro.png)
+
 ## Estructura del Código
 
 ### Sensores
