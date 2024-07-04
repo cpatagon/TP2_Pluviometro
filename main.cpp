@@ -1,4 +1,7 @@
-/** Proyecto plubiometro 2 **/
+/** Proyecto pluviómetro 2 **/
+
+
+
 
 #include "mbed.h"
 #include "arm_book_lib.h"
@@ -10,6 +13,9 @@
 #define SWITCH_TICK_RAIN BUTTON1
 #define RAINFALL_CHECK_INTERVAL 1 // in minutes
 #define MM_PER_TICK 0.2f // 0.2 mm de agua por tick
+#define RAINFALL_COUNT_INI 0
+#define LAST_MINUTE_INI -1
+
 
 // Sensores
 void initializeSensors();
@@ -33,8 +39,8 @@ DigitalOut alarmLed(LED1);
 DigitalIn tickRain(SWITCH_TICK_RAIN);
 DigitalOut tickLed(LED2);
 
-int rainfallCount = 0;
-int lastMinute = -1;
+int rainfallCount = RAINFALL_COUNT_INI;
+int lastMinute = LAST_MINUTE_INI;
 
 int main()
 {
@@ -99,7 +105,7 @@ void actOnRainfall() {
 
 void reportRainfall() {
     printAccumulatedRainfall();
-    rainfallCount = 0;
+    rainfallCount = RAINFALL_COUNT_INI;
 }
 
 void printRain(const char* buffer) {
