@@ -1,8 +1,9 @@
 /** 
+ * @autor Luis Gomez
  * @file pluviómetro.cpp
  * @brief Proyecto pluviómetro 2
  * 
- * Este archivo contiene la implementación del proyecto pluviómetro 2 utilizando MBED.
+ * Este archivo contiene la implementación del proyecto pluviómetro 2 utilizando MBED proyecto curso STM32.
  */
 
 #include "mbed.h"
