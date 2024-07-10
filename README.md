@@ -1,6 +1,6 @@
-# Proyecto Pluviómetro 2
+# Proyecto Pluviómetro
 
-**autor Luis Gómez**
+**autor: Luis Gómez**
 
 Este proyecto implementa un pluviómetro utilizando la plataforma MBED. El sistema mide la cantidad de lluvia mediante un sensor de tick y reporta la cantidad de lluvia acumulada a través de la comunicación serial.
 
